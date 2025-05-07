@@ -1,12 +1,22 @@
-# React + Vite
+# Support Ticket Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive support ticket dashboard application built with React, Tailwind CSS.  It provides a centralized platform for support teams to efficiently handle customer inquiries, issues, and requests.  This dashboard aims to streamline the support workflow, improve response times, and enhance overall customer satisfaction.
+This project allows to mangage customer support tickets efficiently by providing a detailed view of tickets, status updates, priority filtering, and search functionality.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Ticket Management**: View and manage customer support tickets.
+- **Search**: Search tickets by title or customer name.
+- **Filters**: Filter tickets by status (Open, In Progress, Closed) and priority (Low, Medium, High).
+- **Pagination**: Paginate ticket data for better performance and readability.
+- **Responsive Design**: Optimized for both desktop and mobile views.
+- - **Dark Mode Toggle**: Switch between light and dark themes.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**: For building the user interface and managing state.
+- **Tailwind CSS**: For styling and responsive design.
+- **Heroicons**: For adding icons in the UI.
+- **Date-fns**: For formatting the date display.
+
+
